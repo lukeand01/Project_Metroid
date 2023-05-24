@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0091e730dbcd894da5480f1e1b8c8f2, type: 3}
+  m_Name: BlackSlime
+  m_EditorClassIdentifier: 
+  enemyName: Black Slime
+  health: 11
+  spotRange: 13
+  chaseSpeed: 3
+  walkSpeed: 2
+  attackRange: 2
+  attackSpeed: 2
+  knockback: 0
+  knockbackResistance: 0
+  attackList: []
+  projectilImmunity: 0
+  fleshList:
+  - flesh: {fileID: 11400000, guid: 9b59171cf4966864cb5fe42e386e85f1, type: 2}
+    chance: 5
+  - flesh: {fileID: 11400000, guid: abe4e1e4e5cefce4aac530e427a5395c, type: 2}
+    chance: 50
+  soulValue: 5

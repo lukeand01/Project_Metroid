@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0091e730dbcd894da5480f1e1b8c8f2, type: 3}
+  m_Name: Lancer
+  m_EditorClassIdentifier: 
+  enemyName: Lancer
+  health: 30
+  spotRange: 10
+  chaseSpeed: 5
+  walkSpeed: 5
+  attackRange: 4
+  attackSpeed: 0
+  knockback: 0
+  knockbackResistance: 0
+  attackList:
+  - damage: 35
+    speed: 2
+  projectilImmunity: 1
+  fleshList:
+  - flesh: {fileID: 11400000, guid: 9b59171cf4966864cb5fe42e386e85f1, type: 2}
+    chance: 40
+  - flesh: {fileID: 11400000, guid: 4c52e8e81794d014dacf2608132ef57b, type: 2}
+    chance: 100
+  soulValue: 15
